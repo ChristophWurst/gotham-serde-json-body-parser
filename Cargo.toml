@@ -6,6 +6,7 @@ authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
 repository = "https://github.com/ChristophWurst/gotham-serde-json-body-parser"
 keywords = ["web", "gotham", "json"]
 categories = ["web-programming", "parsing"]
+license = "MIT"
 
 [dependencies]
 failure = "^0.1"
