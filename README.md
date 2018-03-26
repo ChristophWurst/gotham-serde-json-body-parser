@@ -1,6 +1,8 @@
 # gotham-serde-json-body-parser
 JSON body parser for the Gotham web framework.
 
+[![Crates.io](https://img.shields.io/crates/v/gotham_serde_json_body_parser.svg)](https://crates.io/crates/gotham_serde_json_body_parser)
+
 This is a simple integration of `serde_json` crate to eliminate the boilerplate code of parsing a request body. If parsing fails, a HTTP 422 (Unprocessable entity) is returned.
 
 ```rust
