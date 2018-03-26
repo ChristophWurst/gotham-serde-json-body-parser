@@ -4,6 +4,8 @@ JSON body parser for the Gotham web framework.
 This is a simple integration of `serde_json` crate to eliminate the boilerplate code of parsing a request body. If parsing fails, a HTTP 422 (Unprocessable entity) is returned.
 
 ```rust
+use gotham_serde_json_body_parser::JSONBody;
+
 #[derive(Debug, Deserialize)]
 struct Person {
     name: String,
