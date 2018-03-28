@@ -1,12 +1,13 @@
 [package]
 name = "gotham_serde_json_body_parser"
 description = "JSON body parser for the Gotham web framework."
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
 repository = "https://github.com/ChristophWurst/gotham-serde-json-body-parser"
 keywords = ["web", "gotham", "json"]
 categories = ["web-programming", "parsing"]
 license = "MIT"
+readme = "README.md"
 
 [dependencies]
 failure = "^0.1"
